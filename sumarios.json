@@ -1,0 +1,42 @@
+{
+  "aula01": {
+    "link": "https://www.youtube.com/watch?v=3WZG3PZLn0w",
+    "summary": "O vídeo é sobre desenvolvimento de sites usando HTML e CSS com o auxílio da inteligência artificial Google Gemini. Os apresentadores, professores Guilherme e Rafaela, e o Developer Advocate do Google, Luciano, guiam o espectador na criação de um site básico sobre atletas brasileiros. Eles usam o Gemini para obter informações sobre as tecnologias necessárias, como HTML, CSS e JavaScript, e também para encontrar um editor de código gratuito, o Visual Studio Code. Após a instalação do editor, eles criam um arquivo HTML e, com a ajuda do Gemini, entendem e modificam o código, incluindo a criação de um cabeçalho, um corpo principal e um rodapé. O vídeo destaca a importância de estruturar o código HTML para melhor organização e acessibilidade. Para finalizar, eles usam o CSS para estilizar a página, adicionando cores, alinhamento e importando uma fonte do Google Fonts. O vídeo enfatiza a importância de usar o Gemini não apenas para gerar código, mas para entender os conceitos e a estruturação do HTML e CSS. Eles incentivam os espectadores a praticar, experimentar e compartilhar seus projetos na comunidade do Discord. ",
+    "index": {
+      "Introdução": "0:00-1:41",
+      "Acesso ao Google Gemini e ao certificado": "1:41-2:14",
+      "Criação do site": "2:14-10:09",
+      "Criação da pasta do projeto": "10:09-10:26",
+      "Criação do arquivo HTML": "10:26-12:01",
+      "Escrita do esqueleto HTML com atalho": "12:01-13:46",
+      "Mudança de idioma do site com ajuda do Gemini": "13:46-18:19",
+      "Criação de uma seção de pesquisa com input e button": "18:19-19:11",
+      "Uso do CSS para estilização": "19:11-21:00",
+      "Instalação da extensão Live Server": "21:00-21:47",
+      "Adição de conteúdo ao cabeçalho": "21:47-24:24",
+      "Criação de uma seção (section) dentro do main": "24:24-24:50",
+      "Criação do arquivo style.css": "24:50-27:02",
+      "Linkando o CSS ao HTML": "27:02-27:31",
+      "Ajustes de cor e alinhamento com CSS": "27:31-36:20",
+      "Uso do Gemini para entender o código CSS": "36:20-47:52",
+      "Criação de um rodapé (footer)": "47:52-48:13",
+      "Uso do Gemini para encontrar códigos de cores": "48:13-48:22",
+      "Conclusão e próximos passos": "48:22-51:33"
+    }
+  },
+  "aula02": {
+    "link": "https://www.youtube.com/watch?v=hEdN5HCtEvI&t=2675s",
+    "summary": "O vídeo da aula 2 da Imersão Dev da Alura com Google Gemini foca na utilização do JavaScript para tornar o site dinâmico. Após uma breve recapitulação da aula anterior, onde foi criado o esqueleto do site com HTML e CSS, os apresentadores introduzem o conceito de exibir resultados dinamicamente na página.  A ideia é, ao digitar o nome de um atleta na caixa de pesquisa e clicar em “Pesquisar”, um parágrafo com uma breve descrição da atleta e um link para mais informações (neste caso, seu perfil na Wikipédia) sejam exibidos abaixo. Para iniciar a implementação dessa funcionalidade, o instrutor cria uma nova tag `<section>` no HTML para abrigar a área de resultados. Dentro dessa section, um novo parágrafo `<p>` e um link `<a>` são adicionados. O atributo `target=\"_blank”` é utilizado no link para garantir que, ao clicar, a página da Wikipédia abra em uma nova aba.  Após estruturar o HTML, os apresentadores decidem utilizar o JavaScript para automatizar a criação desses elementos (parágrafo com a descrição e link) para cada atleta.  Com a ajuda do Gemini, um arquivo JavaScript chamado `app.js` é criado e o código `console.log(“Olá, Mundo!”)` é adicionado a ele. O atributo `src=”app.js”` é inserido na tag `<script>` no HTML para linkar o arquivo JavaScript à página.  Ao executar o código, surge um erro no console do navegador: “ReferenceError: consolelog is not defined”. Usando o Gemini, eles descobrem que o erro se trata de um erro de digitação: no JavaScript, a função para imprimir mensagens no console é `console.log`, com “c” minúsculo.  O Gemini também fornece informações adicionais sobre a importância da posição da tag `<script>` no código HTML. É recomendado colocar a tag script antes do fechamento da tag `<body>` para otimizar o carregamento da página e melhorar a experiência do usuário.  Por fim, o instrutor sugere que os alunos explorem o código CSS disponibilizado no link da descrição, que contém diversas propriedades para estilizar os elementos do site. O vídeo termina com um convite para os alunos participarem da comunidade do Discord e compartilhar seus projetos. ",
+    "index": {
+      "Introdução e recapitulação da aula anterior": "0:00-2:14",
+      "Novo desafio: Exibir resultados dinamicamente": "2:14-3:05",
+      "Criação do link com a tag <a> e o atributo target=\"_blank\"": "3:05-4:25",
+      "Introdução ao JavaScript": "4:25-4:57",
+      "Criação do arquivo app.js e escrita do 'Olá, Mundo!'": "4:57-5:57",
+      "Análise do erro: consolelog is not defined": "5:57-6:27",
+      "Importância da posição da tag <script> no HTML": "6:27-6:59",
+      "Utilização do código CSS para estilização": "6:59-7:19",
+      "Conclusão e convite para a comunidade do Discord": "7:19-7:59"
+    }
+  }
+}
